@@ -52,16 +52,17 @@ will be removed from the early disclosure list.
 
 ### Membership criteria
 
-To be eligible for the early disclosure mailing list, your
+To be eligible for the early disclosure mailing list, you or your
 organization must:
 
-1. Have an actively monitored security email alias for our project. This cannot be a personal
-email address, it must be a corporate address owned by the organization.
-2. Be involved in redistributing Istio or have a product with close coupling to Istio.
-3. Have a user base not limited to your own organization.
-4. Be a participant and active contributor in the Istio community.
-5. Accept the [Embargo Policy](#embargo-policy) that is outlined above.
-6. Have a member of your organization be a participant in the Istio Product Security Working Group. This is a private meeting held alternating Wednesdays at 11am Pacific or 3pm Pacific to accommodate a world-wide community. Participants will be expected to actively contribute and fill the roll as security release lead on a quarterly rotational basis.
+1. Have an actively monitored security email alias for our project. Organizational members must use an organizational email, not a personal email address.
+2. Members must be an active contributor to the project that are well known by PSWG members and TOC. Organizational members must be involved in
+    redistributing Istio or have a product with close coupling to Istio that has a user base not limited to your own organization.
+3. Individual members must be members of the Envoy Product Security Team or be enrolled in the Envoy Private Distributors List.
+4. Accept the [Embargo Policy](#embargo-policy) that is outlined above.
+5. Organizational members must have a member of the organization be a participant in the Istio Product Security Working Group.
+6. Members must participate in the private meeting held alternating Wednesdays at 11am Pacific or 3pm Pacific to accommodate a world-wide community.
+    Participants will be expected to actively contribute and fill the roll as security release lead on a quarterly rotational basis.
 
 #### Removal
 
@@ -71,8 +72,8 @@ after joining the list then you will be unsubscribed.
 #### Envoy
 
 Because Istio works closely with Envoy, and is often involved in security vulnerabilities, members of the early disclosure list will inherently gain access to details about embargoed Envoy vulnerability details.
-While we do not currently require members to be a part of the [Envoy early disclosure list](https://github.com/envoyproxy/envoy/blob/main/SECURITY.md#members), we do expect that members will follow their embargo guidelines.
-Failure to do so, or at the request of the Envoy security team, may result in your removal from the early disclosure list.
+We require individual contributors to be part of the [Envoy early disclosure list](https://github.com/envoyproxy/envoy/blob/main/SECURITY.md#members), and we do expect that members will follow their embargo guidelines.
+Failure to do so, or at the request of the Envoy security team, may result in your removal from the early disclosure list and/or the PSWG.
 
 ### Request to join
 
@@ -94,12 +95,12 @@ Below are each criterion and why I think we, Seven-Corp, qualify.
 Yes, please subscribe istio-security-team@example.com to the early disclosure
 list.
 
-> 2. Be involved in redistributing Istio or have a product with close coupling to Istio.
+> 2. Be well known to the PSWG and TOC, or involved in redistributing Istio or have a product with close coupling to Istio.
 
 We distribute the "Seven" distribution of Istio [link]. We have been doing
 this since 2017.
 
-> 3. Have a user base not limited to your own organization.
+> 3. For Organizations, have a user base not limited to your own organization.
 
 Our user base spans of the extensive "Seven" community. We have a slack and
 GitHub repos and mailing lists where the community hangs out. [links]
@@ -114,7 +115,7 @@ in hacking the Gibson.
 
 We accept.
 
-> 6. Have a member of your organization be a participant in the Istio Product Security Working Group.
+> 6. For organizations, have a member of your organization be a participant in the Istio Product Security Working Group.
 
 John/Jane Doe (Email: person@myorganization.com, Istio Slack username: person) will represent our company in the Istio Product Security Working Group.
 ```
