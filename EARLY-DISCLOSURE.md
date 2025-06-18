@@ -61,7 +61,7 @@ organization must:
 3. Individual members must be members of the Envoy Product Security Team or be enrolled in the Envoy Private Distributors List.
 4. Accept the [Embargo Policy](#embargo-policy) that is outlined above.
 5. Organizational members must have a member of the organization be a participant in the Istio Product Security Working Group.
-6. Members must participate in the private meeting held alternating Wednesdays at 11am Pacific or 3pm Pacific to accommodate a world-wide community.
+6. Members must participate in the private meeting held alternating Wednesdays to accommodate a world-wide community.
     Participants will be expected to actively contribute and fill the roll as security release lead on a quarterly rotational basis.
 
 #### Removal
@@ -72,7 +72,7 @@ after joining the list then you will be unsubscribed.
 #### Envoy
 
 Because Istio works closely with Envoy, and is often involved in security vulnerabilities, members of the early disclosure list will inherently gain access to details about embargoed Envoy vulnerability details.
-We require individual contributors to be part of the [Envoy early disclosure list](https://github.com/envoyproxy/envoy/blob/main/SECURITY.md#members), and we do expect that members will follow their embargo guidelines.
+We require individual contributors to be part of the [Envoy early disclosure list](https://github.com/envoyproxy/envoy/blob/main/SECURITY.md#members). We do not currently require organizational members to be part of the disclosure list, but we do expect that members will follow their embargo guidelines.
 Failure to do so, or at the request of the Envoy security team, may result in your removal from the early disclosure list and/or the PSWG.
 
 ### Request to join
